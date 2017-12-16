@@ -17,8 +17,9 @@
  
  */
 // Answer question 6 below
-let targetDistance: Double = 0
-var currentDistanceRun: Double = 0
+let targetDistance: Double = 70
+var currentDistanceRun: Double = 10
+
 
 /*:
  ## Now share your understanding
