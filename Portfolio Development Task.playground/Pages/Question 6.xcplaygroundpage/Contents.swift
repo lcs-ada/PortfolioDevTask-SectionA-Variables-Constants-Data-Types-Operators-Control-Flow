@@ -17,7 +17,8 @@
  
  */
 // Answer question 6 below
-
+let targetDistance: Double = 0
+var currentDistanceRun: Double = 0
 
 /*:
  ## Now share your understanding

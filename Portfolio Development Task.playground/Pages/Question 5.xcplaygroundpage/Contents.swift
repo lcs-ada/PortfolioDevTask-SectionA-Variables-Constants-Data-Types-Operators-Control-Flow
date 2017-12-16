@@ -15,8 +15,27 @@ let isMale = true
 let neverEverSarcastic = true
 
 // Answer question 5 below
-
-
+if teachesPhysics && isMale && neverEverSarcastic{
+    print ("Must be Braeckman!")
+}else if teachesPhysics || isMale && neverEverSarcastic {
+    print ("Hmm, need more data to be sure.")
+}else if teachesPhysics && isMale || neverEverSarcastic {
+    print ("Hmm, need more data to be sure.")
+}else if teachesPhysics || isMale || neverEverSarcastic {
+    print ("Hmm, need more data to be sure.")
+}else if teachesPhysics || isMale  {
+    print ("Hmm, need more data to be sure.")
+}else if isMale || neverEverSarcastic {
+    print ("Hmm, need more data to be sure.")
+}else if teachesPhysics || neverEverSarcastic {
+    print ("Hmm, need more data to be sure.")
+}else if teachesPhysics && isMale  {
+    print ("Hmm, need more data to be sure.")
+}else if isMale && neverEverSarcastic {
+    print ("Hmm, need more data to be sure.")
+}else if teachesPhysics && neverEverSarcastic {
+    print ("Hmm, need more data to be sure.")
+}
 /*:
  ## Now share your understanding
  
