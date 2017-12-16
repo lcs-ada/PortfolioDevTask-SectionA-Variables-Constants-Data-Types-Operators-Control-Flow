@@ -19,7 +19,7 @@
  
  */
 // Answer question 3 below
-
+var valueOfDimes = 0.10
 /*:
  ## Now share your understanding
  
