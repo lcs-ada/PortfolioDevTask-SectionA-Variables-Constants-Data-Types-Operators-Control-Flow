@@ -17,6 +17,9 @@
  
  */
 // Answer question 2 below
+let albumName = "Annie Da is great"
+var copiesSold = 100_000_000_000_000_000
+let suggestedSellingPrice = 10
 
 /*:
  ## Now share your understanding
