@@ -19,7 +19,21 @@
 // Answer question 6 below
 let targetDistance: Double = 70
 var currentDistanceRun: Double = 10
-
+if currentDistanceRun < (1 / 10) * 70 {
+    print("Great start, keep it up!")
+}  //45%
+else if currentDistanceRun >= (9 / 20) * 70{
+    print("You're almost at halfway!")
+}  //50%
+else if currentDistanceRun == (1 / 2) * 70 {
+    print("Halfway there!")
+}  //90%
+else if currentDistanceRun == (9 / 10) * 70 {
+    print("Nearly done!")
+}  //100%
+else if currentDistanceRun == 70 {
+    print("GREAT JOB! You're finished the run.")
+}
 
 /*:
  ## Now share your understanding
