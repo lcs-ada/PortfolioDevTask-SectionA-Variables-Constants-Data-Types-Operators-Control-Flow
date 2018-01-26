@@ -18,22 +18,14 @@
  Now create a constant called `totalValueOfCoins` and initialize the constant using a single expression that accurately calculates the total value of all the coins.
  
  */
+
 // Answer question 3 below
-
-//create a variable called valueOfDimes
 var valueOfDimes = 0.10
-
-//Create a variable called dimeCount.
-var dimeCount: Double = 0.5
-
-// Create a variable called valueOfQuarters.
+var dimeCount = 17      // Should be integer as you cannot have part of a dime
 var valueOfQuarters = 0.25
+var quarterCount = 2    // Also should be integer for same reason as dimeCount
+let totalValueOfCoins = valueOfDimes * Double(dimeCount) + valueOfQuarters * Double(quarterCount)
 
-//Create a variable called quarterCount.
-var quarterCount: Double = 20.0
-
-//Now create a constant called totalValueOfCoins and initialize the constant
-let totalValueOfCoins = quarterCount * valueOfQuarters
 
 /*:
  ## Now share your understanding
