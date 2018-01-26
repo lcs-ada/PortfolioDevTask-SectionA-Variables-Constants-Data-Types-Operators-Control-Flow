@@ -10,33 +10,28 @@
  Write an `if` statement that prints "Must be Braeckman!" when the values of the constants would seem to suggest the person is Mr. Braeckman, or otherwise prints "Hmm, need more data to be sure."
  
  */
+
+
 let teachesPhysics = true
 let isMale = true
 let neverEverSarcastic = true
 
 // Answer question 5 below
-if teachesPhysics && isMale || neverEverSarcastic{
-    print ("Must be Braeckman!")
-    
-}else if teachesPhysics || isMale && neverEverSarcastic {
-    print ("Hmm, need more data to be sure.")
-}else if teachesPhysics && isMale && neverEverSarcastic {
-    print ("Hmm, need more data to be sure.")
-}else if teachesPhysics || isMale || neverEverSarcastic {
-    print ("Hmm, need more data to be sure.")
-}else if teachesPhysics || isMale  {
-    print ("Hmm, need more data to be sure.")
-}else if isMale || neverEverSarcastic {
-    print ("Hmm, need more data to be sure.")
-}else if teachesPhysics || neverEverSarcastic {
-    print ("Hmm, need more data to be sure.")
-}else if teachesPhysics && isMale  {
-    print ("Hmm, need more data to be sure.")
-}else if isMale && neverEverSarcastic {
-    print ("Hmm, need more data to be sure.")
-}else if teachesPhysics && neverEverSarcastic {
-    print ("Hmm, need more data to be sure.")
+if teachesPhysics && isMale && !neverEverSarcastic {
+    print("Must be Braeckman!")
+} else {
+    print("Hmm, need more data to be sure.")
 }
+
+// Alternate solution, different syntax
+if teachesPhysics == true && isMale == true && neverEverSarcastic == false {
+    print("Must be Braeckman!")
+} else {
+    print("Hmm, need more data to be sure.")
+}
+
+
+
 /*:
  ## Now share your understanding
  
