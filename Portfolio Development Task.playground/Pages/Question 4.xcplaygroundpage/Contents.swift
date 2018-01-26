@@ -19,12 +19,11 @@
  
  */
 // Answer question 4 below
-//using cents as the unit :)
-var moneyIHaveEarned = 0.0
-moneyIHaveEarned += 500
-moneyIHaveEarned -= 200
-moneyIHaveEarned *= 4
-moneyIHaveEarned -= 75 * 13
+var moneyIHaveEarned = 0.0  // Must be of type Double, since we can have part of a dollar
+moneyIHaveEarned += 5       // Part 1
+moneyIHaveEarned -= 2.0     // Part 2
+moneyIHaveEarned *= 4       // Part 3
+moneyIHaveEarned -= 13 * 0.75   // Part 4
 
 /*:
  ## Now share your understanding
