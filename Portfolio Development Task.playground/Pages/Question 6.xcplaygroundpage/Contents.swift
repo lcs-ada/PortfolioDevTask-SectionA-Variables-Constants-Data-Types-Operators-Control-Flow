@@ -16,22 +16,24 @@
  * when the person has run their entire target distance, print "GREAT JOB! You're finished the run."
  
  */
+
 // Answer question 6 below
-let targetDistance: Double = 70
-var currentDistanceRun: Double = 10
-if currentDistanceRun < (1 / 10) * 70 {
+let targetDistance = 100.0
+var currentDistanceRun = 101.0
+
+// Calculate percentage of current distance run
+let percentageComplete = currentDistanceRun / targetDistance
+
+// Provide feedback
+if percentageComplete < 0.1 {
     print("Great start, keep it up!")
-}  //45%
-else if currentDistanceRun >= (9 / 20) * 70{
+} else if percentageComplete >= 0.45 && percentageComplete < 0.5 {
     print("You're almost at halfway!")
-}  //50%
-else if currentDistanceRun == (1 / 2) * 70 {
+} else if percentageComplete == 0.5 {
     print("Halfway there!")
-}  //90%
-else if currentDistanceRun == (9 / 10) * 70 {
+} else if percentageComplete > 0.9 && percentageComplete < 1 {
     print("Nearly done!")
-}  //100%
-else if currentDistanceRun == 70 {
+} else if percentageComplete == 1 {
     print("GREAT JOB! You're finished the run.")
 }
 
